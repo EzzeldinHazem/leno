@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: #2b2b2b;
+    color: #fff;
+}
+
+.crud {
+    width: 80%;
+    margin: auto;
+}
+
+.crud .head {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.crud .head a {
+    font-size: 20px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.crud .head a:hover {
+    color: #3370ff;
+}
+
+.crud input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: #1b1b1b;
+    color: #fff;
+    margin: 7px 0;
+    border-radius: 7px;
+    padding: 12px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.crud input:focus {
+    background-color: #000;
+    transform: scale(1.02);
+}
+
+.crud .price input {
+    width: 20%;
+}
+
+.crud #total {
+    background-color: #a00d02;
+    padding: 5px 3px;
+    border-radius: 6px;
+}
+
+.crud #total::before {
+    content: "Total: ";
+}
+
+.crud button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: #0f43bd;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.crud button:hover {
+    background-color: #3370ff;
+}
+
+#delete-all {
+    margin: 20px 0;
+}
+
+.outputs .btn-search {
+    display: flex;
+    justify-content: space-between;
+}
+
+.outputs .btn-search button {
+    width: 45%;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+table th {
+    text-transform: uppercase;
+}
+
+th,td {
+    padding: 5px;
+}
